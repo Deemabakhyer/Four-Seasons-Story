@@ -143,9 +143,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Downloads\cgProject\cgProject\autumn.cpp" />
+    <ClCompile Include="Spring.cpp" />
     <ClCompile Include="winter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Media Include="..\..\Downloads\cgProject\cgProject\ElevenLabs_Crisp_dry_leaves_crunching_underfoot,_autumn_walk.wav" />
     <Media Include="background_music.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

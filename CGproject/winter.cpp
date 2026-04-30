@@ -34,8 +34,6 @@ int textIndex = 0;
 string messages[] = { "Hello! I'm Deema", "It's cold today...", "But i love the snow!", "Look at the snow man i made :>" };
 int totalMessages = 4;
 
-// buffers //
-
 // Basic shapes //
 
 void DrawTriangle()
