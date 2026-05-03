@@ -120,15 +120,12 @@ void drawGirl() {
     // ================= hair=================
     glColor3f(0,0,0);
     
-    // الجزء المستطيل
     glBegin(GL_QUADS);
     glVertex2f(-0.10,0.22);
     glVertex2f(0.10,0.22);
     glVertex2f(0.10,0.32);
     glVertex2f(-0.10,0.32);
     glEnd();
-    
-    // الجزء العلوي
     drawCircle(0,0.32,0.10);
     
     // ================= haed=================
